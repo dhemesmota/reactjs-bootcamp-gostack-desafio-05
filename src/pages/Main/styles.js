@@ -63,13 +63,47 @@ export const List = styled.form`
     justify-content: space-between;
     align-items: center;
 
+    .repository-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: start;
+      align-items: center;
+
+      img {
+        object-fit: contain;
+        object-position: center;
+        width: 42px;
+        height: 42px;
+        border-radius: 50%;
+        margin-right: 5px;
+        border: 2px solid #eee;
+      }
+
+      .resository-description {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 20px 20px 20px 5px;
+      }
+    }
+
     & + li {
       border-top: 0.1rem solid #eee;
     }
 
     a {
+      border: 1px solid #7159c1;
+      border-radius: 5px;
+      padding: 5px;
       color: #7159c1;
       text-decoration: none;
+      transition: all 0.2s;
+
+      &:hover {
+        background: #7159c1;
+        color: #fff;
+      }
     }
   }
 `;

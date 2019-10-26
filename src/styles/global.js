@@ -37,4 +37,8 @@ export default createGlobalStyle`
   button {
     cursor: pointer;
   }
+
+  .Toastify__toast {
+    border-radius: 5px;
+  }
 `;

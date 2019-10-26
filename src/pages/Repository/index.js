@@ -164,6 +164,7 @@ export default class Repository extends Component {
             >
               Anterior
             </Button>
+            <span>{page}</span>
             <Button onClick={() => this.handleNextPage(page)} type="button">
               Próximo
             </Button>
