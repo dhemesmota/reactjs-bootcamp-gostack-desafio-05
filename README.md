@@ -30,7 +30,7 @@
 
 ## :rocket: Tecnologias
 
-Este projeto está sendo desenvolvido com as seguintes tecnologias:
+Este projeto foi desenvolvido com as seguintes tecnologias:
 
 - [ReactJS][reactjs]
 - [React Toastify][react-toastify]
